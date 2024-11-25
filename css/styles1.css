@@ -1,0 +1,115 @@
+/* Estilos generales */
+body {
+    background-color: #faffb7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+/* Estilos para la tabla */
+table {
+    margin: auto;
+    width: 80%;
+    border: 5px solid #000;
+    background-color: #a2c6f5;
+    text-align: center;
+    border-radius: 15px;
+}
+
+th {
+    padding: 15px;
+    font-size: 24px;
+    color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background-color: #a2c6f5;
+}
+
+th a {
+    text-decoration: none;
+}
+
+th button {
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 2px solid #0270ff;
+    cursor: pointer;
+}
+
+th img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+th {
+    padding: 10px;
+    background-color: #c3ffa7;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+td[colspan="3"] {
+    padding: 30px;
+    font-size: 18px;
+}
+
+td[colspan="3"] p {
+    margin: 0 15%;
+}
+
+/* Estilos para efectos de zoom en las imágenes */
+.zoom {
+    transition: transform 0.3s ease;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+}
+
+/* Estilos para diferentes tamaños de pantalla */
+/* Para pantallas grandes (desktops) */
+@media (min-width: 1200px) {
+    body {
+        font-size: 16px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    button {
+        font-size: 18px;
+    }
+}
+
+/* Para pantallas medianas (tablets) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    body {
+        font-size: 14px;
+    }
+
+    table {
+        width: 90%;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
+
+/* Para pantallas pequeñas (teléfonos móviles) */
+@media (max-width: 767px) {
+    body {
+        font-size: 12px;
+    }
+
+    table {
+        width: 95%;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}

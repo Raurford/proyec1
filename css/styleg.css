@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb); /* Degradado de azul pastel a lila pastel */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+th {
+    border-radius: 15px 15px 15px 15px;
+     }
+     td {
+        border-radius: 15px 15px 15px 15px;
+         }
+.content-table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.content-table td {
+    padding: 15px;
+    vertical-align: top;
+}
+
+.text {
+    width: 60%;
+    background: linear-gradient(to right, #87dd87, #32b4f0);
+}
+
+.image {
+    width: 40%;
+    text-align: right;
+    background: linear-gradient(to right, #c7ca22, #b4fdfd);
+}
+
+.video-table {
+    width: 90%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+    background: linear-gradient(to right, #f1b3b1, #e2ffbc);
+}
+
+.video-space {
+    background: linear-gradient(to right, #f1b3b1, #e2ffbc);
+    padding: 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
+@media (min-width: 1200px) {
+    body {
+        font-size: 16px; /* Ajusta el tamaño del texto si es necesario */
+    }
+
+    table {
+        width: 100%;
+    }
+
+    button {
+        font-size: 18px;
+    }
+}
+
+/* Para pantallas medianas (tablets) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    body {
+        font-size: 14px; /* Ajusta el tamaño del texto si es necesario */
+    }
+
+    table {
+        width: 90%;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
+
+/* Para pantallas pequeñas (teléfonos móviles) */
+@media (max-width: 767px) {
+    body {
+        font-size: 12px; /* Ajusta el tamaño del texto si es necesario */
+    }
+
+    table {
+        width: 95%;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}

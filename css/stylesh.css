@@ -1,0 +1,117 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #dbf5be;
+}
+
+/* Estilos para tablas del encabezado */
+.header-table {
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.header-item {
+    padding: 20px;
+    background-color: #0270ff;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    width: 33%;
+}
+
+.header-button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #0270ff;
+    cursor: pointer;
+    background-color: #0270ff;
+    color: white;
+    width: 100%;
+}
+
+/* Estilos para las tablas de contenido */
+.content-table {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    border-spacing: 0;
+}
+
+.content-title {
+    text-align: center;
+    color: #0270ff;
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+
+.content-text {
+    text-align: justify;
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+}
+
+.content-image {
+    width: 100%;
+    max-width: 300px; /* Limitar el ancho máximo de la imagen */
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    float: right; /* Colocar la imagen a la derecha */
+    margin-left: 20px; /* Espacio entre la imagen y el texto */
+}
+
+/* Media queries */
+@media (min-width: 1200px) {
+    body {
+        font-size: 16px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    button {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    body {
+        font-size: 14px;
+    }
+
+    table {
+        width: 90%;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 12px;
+    }
+
+    table {
+        width: 95%;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    .content-image {
+        float: none;
+        margin: 0 auto;
+        display: block;
+        width: 100%; /* Hacer que la imagen ocupe el 100% en pantallas pequeñas */
+    }
+}
